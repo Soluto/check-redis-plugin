@@ -52,11 +52,11 @@ request(
           process.exit(2)
         }
         else if (usedMemory >= bytes(warning)){
-          console.log(`WARNING redis memory usage ${bytes(usedMemory)}GB threshold: ${warning}`)
+          console.log(`WARNING redis memory usage ${bytes(usedMemory)} threshold: ${warning}`)
           process.exit(1)
         }
         else {
-          console.log(`OK redis memory usage ${bytes(usedMemory)}GB`)
+          console.log(`OK redis memory usage ${bytes(usedMemory)}`)
         }
     }
 );
