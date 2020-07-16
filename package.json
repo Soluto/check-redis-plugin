@@ -11,6 +11,6 @@
   "dependencies": {
     "bytes": "^2.4.0",
     "node-getopt": "^0.2.3",
-    "request": "^2.81.0"
+    "request": "^2.88.0"
   }
 }
